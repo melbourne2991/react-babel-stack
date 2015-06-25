@@ -12,14 +12,12 @@ module.exports = {
   	entry: ['webpack/hot/dev-server', entryFile],
   	output: {
   		path: outputDir,
-  		publicPath: 'http://localhost:8000/',
   		filename: 'bundle.js'
   	},
 	devServer: {
 		contentBase: outputDir,
 		inline: true,
-		colors: true,
-		port: 8000
+		colors: true
 	},
   	devtool: 'source-map',
   	module: {
