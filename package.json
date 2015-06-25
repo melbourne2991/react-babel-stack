@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "frontend-dev-server": "webpack-dev-server --hot --config ./frontend/webpack.config.dev.js --",
+    "frontend-dev-server": "webpack-dev-server --hot --config ./frontend/webpack.config.dev.js",
     "frontend-dev-build": "BUILD_DEV=1 webpack --progress --colors --config ./frontend/webpack.config.dev.js"
   },
   "repository": {
