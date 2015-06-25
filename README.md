@@ -5,7 +5,7 @@
 `cd ./react-babel-stack`
 `npm install`
 
-Files are contained in the `./src` directory.
+Files are contained in the `frontend/src` directory.
 
 ## Running dev server
 
