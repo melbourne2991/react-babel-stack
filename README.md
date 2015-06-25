@@ -2,7 +2,7 @@
 
 ## Setup
 
-`cd ./react-babel-stack`
+`cd ./react-babel-stack`,
 `npm install`
 
 Files are contained in the `frontend/src` directory.
@@ -11,12 +11,12 @@ Files are contained in the `frontend/src` directory.
 
 To run the dev server on the default port (8080):
 
-`cd ./react-babel-stack`
+`cd ./react-babel-stack`,
 `npm run frontend-dev-server`
 
 To run with webpack argument eg, a custom port:
 
-`cd ./react-babel-stack`
+`cd ./react-babel-stack`,
 `npm run frontend-dev-server -- --port=8003`
 
 (please note the double dashes)
@@ -25,7 +25,7 @@ To run with webpack argument eg, a custom port:
 
 SASS is included as well as sourcemaps.
 
-`cd ./react-babel-stack`
+`cd ./react-babel-stack`,
 `npm run frontend-dev-build`
 
 Build can be found in frontend/dist.
